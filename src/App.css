@@ -1,0 +1,70 @@
+body{background-color: cyan;}
+.container{
+  background-color: rgb(153, 159, 245);
+width:600px;height:600px;margin:auto;
+margin-top: 50px;
+padding-top:50px ;}
+
+.header{
+  width:600px;
+  height:100px;
+  padding-left: 30px;
+  /*border:solid black 3px;*/}
+  
+  .input{
+    width:400px;
+    height:50px;
+    margin:20px;
+    border: none;
+    outline:none;
+   background-color: rgb(131, 165, 96);
+   color: darkblue;
+   font-family:cursive;
+   font-size: x-large;
+   text-align: center;
+   
+  }
+
+  .button {
+    margin: 10px;
+    padding: 10px 25px;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #8eb990;;
+    border: none;
+    outline:none;}
+    
+  
+  .button:hover {background-color: #b8c7b8; }
+
+.button:active {
+  background-color: rgb(161, 161, 179); 
+}
+
+.task{
+  color:#fff;
+  width:300px;
+  background-color:#bf07ac;
+  height:50px;
+  margin:0px auto;
+  border-radius: 5px;
+}
+.task p{padding:10px;position:relative; font-size: x-large;}
+.fa-trash-alt {
+  position:absolute;
+   right:10px;
+ }
+   .fa-pencil-alt {position:absolute;right:40px}
+
+   .fa-trash-alt:hover {color: red; }
+   .fa-pencil-alt:hover {color: red; }
+
+   .ReactModal__Overlay {
+    height: 700px;width:850px;
+    padding:auto;
+    margin:auto;
+    }
+
+    
